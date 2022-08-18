@@ -44,7 +44,9 @@ DELETE | /api/posts/{id} | | 1
 
 
 **4. 적절한 관심사 분리를 적용하였나요? (Controller, Repository, Service)**
->Controller : 
+>Controller : Service를 호출하여 Request처리 후 Client에게 전달<br>
+>Repository : db로 접근<br>
+>Service : 알맞은 정보를 가공하여 Controller에 데이터 전달
 
 
 **5. 작성한 코드에서 빈(Bean)을 모두 찾아보세요!**
