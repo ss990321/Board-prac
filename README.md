@@ -33,9 +33,18 @@ DELETE | /api/posts/{id} | | 1
 
 
 **3. RESTful한 API를 설계했나요? 어떤 부분이 그런가요? 어떤 부분이 그렇지 않나요?**
+> Operation | Method 
+>---|---|
+>Create | 데이터 생성(POST)
+>Read | 데이터 조회(GET)
+>Update | 데이터 수정(PUT)
+>Delete | 데이터 삭제(DELETE)<br>
+>* CRUD의 기능을 적절한 Method를 사용하여 처리했다. 
+>* URI 규칙을 지켜서 사용했다.
 
 
 **4. 적절한 관심사 분리를 적용하였나요? (Controller, Repository, Service)**
+>Controller : 
 
 
 **5. 작성한 코드에서 빈(Bean)을 모두 찾아보세요!**
