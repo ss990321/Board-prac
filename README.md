@@ -26,12 +26,9 @@ DELETE | /api/posts/{id} | | 1
 >삭제api : 삭제할 게시글id - param
 
 
-
-
 **2. 어떤 상황에 어떤 방식의 request를 써야하나요?**
 >GET, DELETE : 데이터 식별 - param<br>
 >POST, PUT : 데이터 저장 - body 
-
 
 
 **3. RESTful한 API를 설계했나요? 어떤 부분이 그런가요? 어떤 부분이 그렇지 않나요?**
@@ -45,16 +42,15 @@ DELETE | /api/posts/{id} | | 1
 >* URI 규칙을 지켜서 사용했다.
 
 
-
 **4. 적절한 관심사 분리를 적용하였나요? (Controller, Repository, Service)**
 >Controller : Service를 호출하여 Request처리 후 Client에게 전달<br>
 >Repository : db로 접근하기 위한 Method사용<br>
 >Service : 알맞은 정보를 가공하여 Controller에 데이터 전달
 
 
-
 **5. 작성한 코드에서 빈(Bean)을 모두 찾아보세요!**
 >@RestController, @Service
+
 
 **6. API 명세서 작성 가이드라인을 검색하여 직접 작성한 명세서와 비교해보세요!**
 >작성 : Method, URL, Request, Response<br>
