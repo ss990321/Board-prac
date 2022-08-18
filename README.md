@@ -28,7 +28,7 @@ DELETE | /api/posts/{id} | | 1
 
 
 **2. 어떤 상황에 어떤 방식의 request를 써야하나요?**
->GET, DELETE : 데이터 식별 - param 
+>GET, DELETE : 데이터 식별 - param<br>
 >POST, PUT : 데이터 저장 - body 
 
 
